@@ -1,0 +1,169 @@
+<!doctype html>
+<html lang="es">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Storylaw · Propuestas actualizadas</title>
+  <style>
+    :root {
+      color-scheme: light;
+      --ink: #18202f;
+      --muted: #687384;
+      --line: #d9dfe6;
+      --blue: #28334b;
+      --ice: #eef3f6;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      min-height: 100vh;
+      margin: 0;
+      padding: 32px 18px;
+      color: var(--ink);
+      background: linear-gradient(160deg, #f7f9fb 0%, #e8edf2 100%);
+      font-family: Inter, system-ui, -apple-system, "Segoe UI", sans-serif;
+    }
+
+    main {
+      width: min(620px, 100%);
+      margin: auto;
+    }
+
+    .version {
+      display: inline-flex;
+      padding: 7px 11px;
+      border-radius: 999px;
+      color: #fff;
+      background: var(--blue);
+      font-size: 11px;
+      font-weight: 700;
+      letter-spacing: .08em;
+      text-transform: uppercase;
+    }
+
+    h1 {
+      max-width: 540px;
+      margin: 18px 0 10px;
+      font-size: clamp(2rem, 8vw, 3.5rem);
+      letter-spacing: -.055em;
+      line-height: .98;
+    }
+
+    .intro {
+      margin: 0 0 28px;
+      color: var(--muted);
+      font-size: 14px;
+      line-height: 1.7;
+    }
+
+    .cards {
+      display: grid;
+      gap: 12px;
+    }
+
+    .card {
+      padding: 20px;
+      border: 1px solid var(--line);
+      border-radius: 22px;
+      background: rgba(255, 255, 255, .88);
+      box-shadow: 0 16px 40px rgba(24, 32, 47, .09);
+    }
+
+    .card small {
+      color: #718196;
+      font-size: 9px;
+      font-weight: 700;
+      letter-spacing: .12em;
+      text-transform: uppercase;
+    }
+
+    .card h2 {
+      margin: 8px 0 6px;
+      font-size: 1.35rem;
+      letter-spacing: -.035em;
+    }
+
+    .card p {
+      margin: 0 0 16px;
+      color: var(--muted);
+      font-size: 12px;
+      line-height: 1.55;
+    }
+
+    .links {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+    }
+
+    a {
+      min-height: 42px;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      padding: 9px 14px;
+      border: 1px solid var(--blue);
+      border-radius: 12px;
+      color: #fff;
+      background: var(--blue);
+      font-size: 11px;
+      font-weight: 700;
+      text-decoration: none;
+    }
+
+    a.secondary {
+      color: var(--blue);
+      background: transparent;
+    }
+
+    .check {
+      margin: 18px 0 0;
+      padding: 15px 17px;
+      border: 1px solid var(--line);
+      border-radius: 16px;
+      color: var(--muted);
+      background: var(--ice);
+      font-size: 11px;
+      line-height: 1.6;
+    }
+
+    .check strong {
+      color: var(--ink);
+    }
+  </style>
+</head>
+
+<body>
+  <main>
+    <h1>Propuestas de diseño</h1> <br>
+
+    <section class="cards">
+      <article class="card">
+        <small>Alejandro Flores Patiño</small>
+        <h2>4 propuestas de tarjeta digital</h2>
+        <p>Explora cuatro diseños diferentes, cada uno con cinco combinaciones de colores para elegir la que mejor represente tu estilo profesional.</p>
+        <div class="links">
+          <a href="./propuestas-alejandro.html">Ver propuestas de Alejandro</a>
+        </div>
+      </article>
+
+      <article class="card">
+        <small>Ana Laura y Mónica</small>
+        <h2>10 propuestas de tarjeta digital + código QR</h2>
+        <p>Descubre diferentes opciones de diseño, personaliza sus colores y elige la propuesta que mejor refleje tu identidad profesional. <br> Cada tarjeta contará con su propio código QR para facilitar el acceso a la información de contacto.</p>
+        <div class="links">
+          <a href="./propuestas-abogadas.html">Ver propuestas de diseño</a>
+          <a class="secondary" href="./ana-laura-flores/propuestas/qr-propuesta-02.html">Ver ejemplo de QR</a>
+        </div>
+      </article>
+    </section>
+
+    <p class="check"><strong>Nota importante:</strong> Los códigos QR que se muestran son únicamente ilustrativos. Una vez seleccionado y aprobado el diseño final de cada tarjeta digital, se generarán los códigos QR con sus enlaces correspondientes.</p>
+  </main>
+</body>
+
+</html>
