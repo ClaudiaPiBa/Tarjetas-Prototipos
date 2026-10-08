@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024" role="img" aria-labelledby="title desc">
+  <title id="title">Ícono de Mónica Mora Martín</title>
+  <desc id="desc">Símbolo de balanza minimalista sobre fondo crema</desc>
+  <rect width="1024" height="1024" fill="#f2eee7"/>
+  <g fill="none" stroke="#78907b" stroke-linecap="round" stroke-linejoin="round" stroke-width="30">
+    <path d="M512 218v374"/>
+    <path d="M322 330h380"/>
+    <path d="M394 330 302 498M394 330l92 168"/>
+    <path d="M630 330 538 498M630 330l92 168"/>
+    <path d="M286 498h216c-15 86-72 128-108 128s-93-42-108-128Z"/>
+    <path d="M522 498h216c-15 86-72 128-108 128s-93-42-108-128Z"/>
+    <path d="M386 650h252M338 704h348"/>
+  </g>
+  <text x="512" y="808" text-anchor="middle" font-family="Arial, sans-serif" font-size="58" font-weight="700" letter-spacing="3" fill="#26342d">MÓNICA</text>
+  <text x="512" y="872" text-anchor="middle" font-family="Arial, sans-serif" font-size="46" font-weight="600" letter-spacing="2" fill="#586d5b">MORA MARTÍN</text>
+</svg>

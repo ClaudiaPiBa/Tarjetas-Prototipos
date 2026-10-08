@@ -1,0 +1,16 @@
+{
+  "id": "../catalogo-asociadas-07",
+  "name": "Tarjeta de asociadas · Propuesta 07",
+  "short_name": "Asociadas P7",
+  "description": "Propuesta de tarjeta digital para las asociadas.",
+  "start_url": "../propuesta-02.html",
+  "scope": "../",
+  "display": "standalone",
+  "background_color": "#f5f3ed",
+  "theme_color": "#25364a",
+  "icons": [
+    { "src": "../../assets/img/icon-monica-modern-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any" },
+    { "src": "../../assets/img/icon-monica-modern-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any" },
+    { "src": "../../assets/img/icon-monica-modern-maskable-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+  ]
+}

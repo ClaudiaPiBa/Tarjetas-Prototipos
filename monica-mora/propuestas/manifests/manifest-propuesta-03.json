@@ -1,0 +1,16 @@
+{
+  "id": "../catalogo-asociadas-08",
+  "name": "Tarjeta de asociadas · Propuesta 08",
+  "short_name": "Asociadas P8",
+  "description": "Propuesta de tarjeta digital para las asociadas.",
+  "start_url": "../propuesta-03.html",
+  "scope": "../",
+  "display": "standalone",
+  "background_color": "#f8f3ed",
+  "theme_color": "#7a4854",
+  "icons": [
+    { "src": "../../assets/img/icon-monica-modern-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any" },
+    { "src": "../../assets/img/icon-monica-modern-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any" },
+    { "src": "../../assets/img/icon-monica-modern-maskable-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+  ]
+}

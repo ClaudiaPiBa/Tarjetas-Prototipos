@@ -1,0 +1,30 @@
+{
+  "id": "../catalogo-asociadas-01",
+  "name": "Tarjeta de asociadas · Propuesta 01",
+  "short_name": "Asociadas P1",
+  "description": "Propuesta de tarjeta digital para las asociadas.",
+  "start_url": "../propuesta-01.html",
+  "scope": "../",
+  "display": "standalone",
+  "background_color": "#f7f3ec",
+  "theme_color": "#5d7563",
+  "icons": [{
+      "src": "../../assets/img/icon-ana-laura-modern-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "../../assets/img/icon-ana-laura-modern-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "../../assets/img/icon-ana-laura-modern-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+  <meta name="description" content="Datos de contacto profesional de Mónica Mora Martín.">
+  <meta name="format-detection" content="telephone=no">
+  <title>Mónica Mora Martín</title> 
+
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&amp;display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../assets/css/cards-modern.css">
+
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="Mónica Mora Martín">
+  <meta property="og:title" content="Mónica Mora Martín · Asociada">
+  <meta property="og:description" content="Datos de contacto profesional.">
+  <meta property="og:url" content="https://claudiapiba.github.io/tarjeta-digital/storylaw/monica-mora/index.html">
+
+  <link rel="manifest" href="./json/manifest.json">
+  <link rel="apple-touch-icon" sizes="180x180" href="./assets/img/icon-monica-modern-180.png">
+  <meta name="theme-color" content="#78907b">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="default">
+  <meta name="apple-mobile-web-app-title" content="Mónica Mora">
+</head>
+<body>
+  <main class="wrap">
+    <article class="card" aria-label="Contacto profesional de Mónica Mora Martín">
+      <header class="identity">
+        <p class="role">Asociada</p>
+        <h1 class="name">Mónica <span>Mora Martín</span></h1>
+        <p class="firm">Loperena Lerch y Martín del Campo</p>
+      </header>
+
+      <section class="primary-actions" aria-label="Acciones rápidas">
+        <button class="pill" type="button">
+          <img src="../assets/icons/whatsapp.svg" alt="">
+          <span>WhatsApp</span>
+        </button>
+        <button class="pill" type="button">
+          <img src="../assets/icons/call.svg" alt="">
+          <span>Oficina<small>Ext. 115</small></span>
+        </button>
+        <button class="pill" type="button">
+          <img src="../assets/icons/email.svg" alt="">
+          <span>Email</span>
+        </button>
+      </section>
+
+      <section class="network-actions network-actions--single" aria-label="Acciones de correo">
+        <button class="network-link" type="button" id="copyBtn">Copiar correo</button>
+      </section>
+
+      <section class="contact-list" aria-label="Datos de contacto">
+        <div class="contact-row">
+          <span class="contact-icon"><img src="../assets/icons/cel.svg" alt=""></span>
+          <div class="contact-copy">
+            <span class="contact-label">Celular / WhatsApp</span>
+            <span class="contact-value" id="phoneTxt">55 17 98 98 07</span>
+          </div>
+          <button class="mini" type="button" data-copy="#phoneTxt">Copiar</button>
+        </div>
+        <div class="contact-row">
+          <span class="contact-icon"><img src="../assets/icons/deskphone.svg" alt=""></span>
+          <div class="contact-copy">
+            <span class="contact-label">Teléfono de oficina · Ext. 115</span>
+            <span class="contact-value" id="deskphoneTxt">55 52 86 90 86</span>
+          </div>
+          <button class="mini" type="button" data-copy="#deskphoneTxt">Copiar</button>
+        </div>
+        <div class="contact-row">
+          <span class="contact-icon"><img src="../assets/icons/email.svg" alt=""></span>
+          <div class="contact-copy">
+            <span class="contact-label">Correo electrónico</span>
+            <span class="contact-value" id="emailTxt">monica.mora@loperena.mx</span>
+          </div>
+          <button class="mini" type="button" data-copy="#emailTxt">Copiar</button>
+        </div>
+      </section>
+
+      <section class="cta" aria-label="Más acciones">
+        <button class="secondary" id="saveContactBtn" type="button">Guardar contacto</button>
+        <button class="secondary" id="shareBtn" type="button">Compartir</button>
+      </section>
+    </article>
+    <div class="toast" id="toast" role="status" aria-live="polite" aria-atomic="true"></div>
+  </main>
+  <script src="./js/main.js"></script>
+  <script src="./js/pwa.js"></script>
+</body>
+</html>

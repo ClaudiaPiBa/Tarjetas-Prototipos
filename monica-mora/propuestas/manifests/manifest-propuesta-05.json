@@ -1,0 +1,16 @@
+{
+  "id": "../catalogo-asociadas-10",
+  "name": "Tarjeta de asociadas · Propuesta 10",
+  "short_name": "Asociadas P10",
+  "description": "Propuesta de tarjeta digital para las asociadas.",
+  "start_url": "../propuesta-05.html",
+  "scope": "../",
+  "display": "standalone",
+  "background_color": "#faf6f0",
+  "theme_color": "#6b5243",
+  "icons": [
+    { "src": "../../assets/img/icon-monica-modern-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any" },
+    { "src": "../../assets/img/icon-monica-modern-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any" },
+    { "src": "../../assets/img/icon-monica-modern-maskable-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+  ]
+}

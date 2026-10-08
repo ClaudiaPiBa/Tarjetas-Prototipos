@@ -1,0 +1,16 @@
+{
+  "id": "../catalogo-asociadas-02",
+  "name": "Tarjeta de asociadas · Propuesta 02",
+  "short_name": "Asociadas P2",
+  "description": "Propuesta de tarjeta digital para las asociadas.",
+  "start_url": "../propuesta-02.html",
+  "scope": "../",
+  "display": "standalone",
+  "background_color": "#f8f3ed",
+  "theme_color": "#7a4854",
+  "icons": [
+    { "src": "../../assets/img/icon-ana-laura-modern-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any" },
+    { "src": "../../assets/img/icon-ana-laura-modern-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any" },
+    { "src": "../../assets/img/icon-ana-laura-modern-maskable-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+  ]
+}
